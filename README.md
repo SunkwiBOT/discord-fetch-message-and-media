@@ -3,4 +3,6 @@
 yarn build
 yarn start
 
+or
+
 yarn devv
