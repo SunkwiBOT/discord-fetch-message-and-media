@@ -43,7 +43,7 @@ async function FetchMessage () {
     try {
       last_id = messages.last().id;
     } catch (error) {
-      console.log(`Done for: ${ChannelData.name} [${ChannelData.id}]`);
+      console.log(`Done for: Server: ${ChannelData.guild.name} [${ChannelData.guild.id}] Channel: ${ChannelData.name} [${ChannelData.id}]`);
 
       ServerId.splice(ServerId.indexOf(ServerId[0]), 1);
       return BoucleFetch();
